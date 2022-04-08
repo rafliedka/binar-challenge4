@@ -16,15 +16,15 @@ const getAllCar = () => {
             <p class="car-desc">${result[i].description}</p>
             <div class="car-cards-card-attibute-sub">
                 <img src="./images/capacity.png" alt="">
-                <p>4 Orang</p>
+                <p>${result[i].capacity} Orang</p>
             </div>
             <div class="car-cards-card-attibute-sub">
                 <img src="./images/engine.png" alt="">
-                <p>Manual</p>
+                <p>${result[i].transmission}</p>
             </div>
             <div class="car-cards-card-attibute-sub">
                 <img src="./images/year.png" alt="">
-                <p>Tahun 2020</p>
+                <p>Tahun ${result[i].year}</p>
             </div>
 
             <button type="button" class="btn car-card-button">Register</button>
@@ -39,7 +39,7 @@ const getAllCar = () => {
 
 getAllCar();
 
-const filterCar = (char) => {
+/* const filterCar = (char) => {
 
     // let newCar = allCar.filter(car => car.manufacture.toLowerCase().includes(char) && car.available == true);
     let newCar = allCar.filter(car => car.available == (char) && car.available == true);
@@ -75,4 +75,4 @@ const filterCar = (char) => {
         body.appendChild(Car)
         
     });
-}
+} */
