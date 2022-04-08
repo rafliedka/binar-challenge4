@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Car Rental</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <!-- mobile navbar -->
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <img src="images/binar.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">BCR</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#our-service">Our services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#why-us">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#testimonial">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#faq">FAQ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button type="button" class="btn">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- desktop navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ondesktop">
+        <div class="container">
+            <img src="images/binar.png" alt="">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#our-service">Our services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#why-us">Why Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#testimonial">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+                <button type="button" class="btn">Register</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content1 -->
+    <div class="container content1" id="home">
+        <!-- product description -->
+        <div class="content1-left">
+            <h1>Sewa & Rental Mobil Terbaik di kawasan Depok</h1>
+            <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau.
+                Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+        </div>
+        <!-- car image -->
+        <div class="content1-right">
+            <img src="images/car_img.png" alt="car">
+        </div>
+    </div>
+
+    <center>
+        <div class="card card-filter">
+            <div class="card-body">
+                <div class="form-filter">
+                    <div class="filter">
+                        <label for="">Tipe Driver</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pilih Tipe Driver</option>
+                            <option value=true>Dengan Sopir</option>
+                            <option value="2">Lepas Kunci</option>
+                        </select>
+                    </div>
+                    <div class="filter">
+                        <label for="">Tanggal</label>
+                        <input type="date" id="dateofbirth">
+                    </div>
+                    <div class="filter">
+                        <label for="">Waktu Jemput/Ambil</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="8">08:00 WIB</option>
+                            <option value="9">09:00 WIB</option>
+                            <option value="10">10:00 WIB</option>
+                            <option value="11">11:00 WIB</option>
+                            <option value="12">12:00 WIB</option>
+                        </select>
+                    </div>
+                    <div class="filter">
+                        <label for="">Jumlah Penumpang (Optional)</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="2">2 Orang</option>
+                            <option value="4">4 Orang</option>
+                            <option value="6">6 Orang</option>
+                        </select>
+                    </div>
+                    <button type="button" class="btn">Mulai Sewa Mobil</button>
+                </div>
+            </div>
+        </div>
+    </center>
+
+    <!-- input filter by text -->
+    <input type="text" id="textinput" name="lname" placeholder="type here">
+    <p id="hasil_ti"></p>
+
+    <!-- output data -->
+    <div class="car-cards" id="car-cards">
+        <!-- <div class="car-cards-card">
+            <img src="./images/car01.min.jpg" class="car-image">
+            <div class="car-cards-card-title">
+                <h6>Ford - F150</h6>
+                <h6>200000 / hari</h6>
+            </div>
+            <p class="car-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi nihil iste corrupti ut explicabo deleniti. Ratione officia porro dolores, ipsam sed illum. Excepturi laudantium iure consectetur maiores nam eius.</p>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/capacity.png" alt="">
+                <p>4 Orang</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/engine.png" alt="">
+                <p>Manual</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/year.png" alt="">
+                <p>Tahun 2020</p>
+            </div>
+
+            <button type="button" class="btn car-card-button">Register</button>
+        </div>
+        <div class="car-cards-card">
+            <img src="./images/car01.min.jpg" class="car-image">
+            <div class="car-cards-card-title">
+                <h6>Ford - F150</h6>
+                <h6>200000 / hari</h6>
+            </div>
+            <p class="car-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi nihil iste corrupti ut
+                explicabo deleniti. Ratione officia porro dolores, ipsam sed illum. Excepturi laudantium iure consectetur
+                maiores nam eius.</p>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/capacity.png" alt="">
+                <p>4 Orang</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/engine.png" alt="">
+                <p>Manual</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/year.png" alt="">
+                <p>Tahun 2020</p>
+            </div>
+        
+            <button type="button" class="btn car-card-button">Register</button>
+        </div>
+        <div class="car-cards-card">
+            <img src="./images/car01.min.jpg" class="car-image">
+            <div class="car-cards-card-title">
+                <h6>Ford - F150</h6>
+                <h6>200000 / hari</h6>
+            </div>
+            <p class="car-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi nihil iste corrupti ut
+                explicabo deleniti. Ratione officia porro dolores, ipsam sed illum. Excepturi laudantium iure consectetur
+                maiores nam eius.</p>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/capacity.png" alt="">
+                <p>4 Orang</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/engine.png" alt="">
+                <p>Manual</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/year.png" alt="">
+                <p>Tahun 2020</p>
+            </div>
+        
+            <button type="button" class="btn car-card-button">Register</button>
+        </div>
+        <div class="car-cards-card">
+            <img src="./images/car01.min.jpg" class="car-image">
+            <div class="car-cards-card-title">
+                <h6>Ford - F150</h6>
+                <h6>200000 / hari</h6>
+            </div>
+            <p class="car-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi nihil iste corrupti ut
+                explicabo deleniti. Ratione officia porro dolores, ipsam sed illum. Excepturi laudantium iure consectetur
+                maiores nam eius.</p>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/capacity.png" alt="">
+                <p>4 Orang</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/engine.png" alt="">
+                <p>Manual</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/year.png" alt="">
+                <p>Tahun 2020</p>
+            </div>
+        
+            <button type="button" class="btn car-card-button">Register</button>
+        </div>
+        <div class="car-cards-card">
+            <img src="./images/car01.min.jpg" class="car-image">
+            <div class="car-cards-card-title">
+                <h6>Ford - F150</h6>
+                <h6>200000 / hari</h6>
+            </div>
+            <p class="car-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi nihil iste corrupti ut
+                explicabo deleniti. Ratione officia porro dolores, ipsam sed illum. Excepturi laudantium iure consectetur
+                maiores nam eius.</p>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/capacity.png" alt="">
+                <p>4 Orang</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/engine.png" alt="">
+                <p>Manual</p>
+            </div>
+            <div class="car-cards-card-attibute-sub">
+                <img src="./images/year.png" alt="">
+                <p>Tahun 2020</p>
+            </div>
+        
+            <button type="button" class="btn car-card-button">Register</button>
+        </div> -->
+    </div>
+
+    <!-- footer -->
+    <div class="container footer">
+        <!-- contact -->
+        <div class="footer-1">
+            <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+            <p>binarcarrental@gmail.com</p>
+            <p>081-233-334-808</p>
+        </div>
+        <!-- highlight -->
+        <div class="footer-2">
+            <a class="nav-link active" aria-current="page" href="#home">
+                <h6>Home</h6>
+            </a>
+            <a class="nav-link active" aria-current="page" href="#our-service">
+                <h6>Our Services</h6>
+            </a>
+            <a class="nav-link active" aria-current="page" href="#why-us">
+                <h6>why Us</h6>
+            </a>
+            <a class="nav-link active" aria-current="page" href="#testimonial">
+                <h6>Testimonial</h6>
+            </a>
+            <a class="nav-link active" aria-current="page" href="#faq">
+                <h6>FAQ</h6>
+            </a>
+        </div>
+        <!-- socmed -->
+        <div class="footer-3">
+            <div class="footer-3-text">
+                <p>Connect with us</p>
+            </div>
+            <div class="footer-3-logos">
+                <a href="https://web.facebook.com/binaracademy" target="_blank">
+                    <img src="images/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.instagram.com/academybinar/" target="_blank">
+                    <img src="images/instagram.png" alt="instagram">
+                </a>
+                <a href="https://twitter.com/academybinar" target="_blank">
+                    <img src="images/twitter.png" alt="twitter">
+                </a>
+                <img src="images/mail.png" alt="email">
+                <img src="images/twitch.png" alt="twitch">
+            </div>
+        </div>
+        <!-- copy right -->
+        <div class="footer-4">
+            <p>Copyright Binar 2022</p>
+            <img src="images/binar.png" alt="" class="footer-4-logo">
+        </div>
+    </div>
+
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/handleInput.js"></script>
+</body>
+
+</html>

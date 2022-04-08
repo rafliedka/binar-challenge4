@@ -1,0 +1,487 @@
+
+body {
+  font-family: Helvetica;
+}
+
+.onmobile {
+  display: none;
+}
+
+.ondesktop {
+  display: unset;
+}
+/* navbar style */
+.navbar .container {
+  padding-top: 2vw;
+}
+
+.navbar img {
+  width: 100px;
+}
+
+.navbar button {
+  background-color: #5cb85f;
+  color: white;
+}
+
+.navbar ul li {
+  margin-right: 1vw;
+}
+
+/* conten 1 style */
+.content1 {
+  padding-top: 8vw;
+  padding-bottom: 2vw;
+  display: flex;
+  background-color: rgb(229, 252, 244);
+}
+
+.content1-left {
+  padding-top: 5vw;
+  padding-right: 3vw;
+}
+
+.content1 h1 {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.content1 p {
+  width: 450px;
+  height: 60px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content1 button {
+  width: fit-content;
+  height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  background: #5cb85f;
+  color: #ffffff;
+}
+
+.content1 img {
+  width: 45vw;
+  border-radius: 10px;
+}
+
+/* content 2 style */
+.content2 {
+  display: flex;
+  padding-top: 2vw;
+}
+
+.content2-left {
+  padding-left: 5vw;
+}
+
+.content2 img {
+  width: 30vw;
+}
+
+.content2-right {
+  padding-right: 5vw;
+  padding-top: 5vw;
+  padding-left: 5vw;
+}
+
+.content2 h1 {
+  height: 72px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.content2 p {
+  width: 468px;
+  height: 60px;
+  padding-left: 1vw;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content2-right-list > img {
+  width: 24px;
+  height: 24px;
+}
+
+.content2-right-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -40px;
+}
+
+/* content3 style */
+.content3 {
+  padding-top: 3vw;
+}
+
+.content3-top h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.content3-top p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content3-botom-cards {
+  display: flex;
+  flex-basis: 25%;
+  padding-left: 1vw;
+}
+
+.content3-botom-cards-card {
+  border: solid 1px #e5e5e5;
+  border-radius: 10px;
+  margin-right: 25px;
+  width: 20vw;
+}
+
+.content3-botom-cards-card img {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  width: 32px;
+  height: 32px;
+  left: 24px;
+  top: 24px;
+}
+
+.content3-botom-cards-card h1 {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content3-botom-cards-card p {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  width: 250px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* content4 style */
+
+.content4 {
+  padding-top: 3vw;
+}
+
+.content4-top h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.content4-top p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.content4-botom {
+  padding-top: 3vw;
+}
+
+.content4-botom-cards {
+  display: flex;
+  padding-left: 1vw;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.content4-botom-cards-card {
+  display: flex;
+  border: solid 1px #e5e5e5;
+  border-radius: 10px;
+  margin-right: 50px;
+  width: fit-content;
+  background-color: #f1f3ff;
+  flex-shrink: 0;
+}
+
+.content4-botom-cards-card img {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  width: 80px;
+  height: 80px;
+}
+
+.content4-botom-cards-card-img {
+  margin: 5vw 1vw 3vw 3vw;
+}
+
+.content4-botom-cards-card-text {
+  display: flex;
+  flex-direction: column;
+  margin: 2vw;
+}
+
+.content4-botom-cards-card-text img {
+  width: 35px;
+  height: 30px;
+  margin-right: -21px;
+}
+
+.content4-botom-cards-card p {
+  padding-top: 1vw;
+  padding-left: 1vw;
+  padding-right: 2vw;
+  width: 415px;
+  height: 80px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content4-botom-cards-card h2 {
+  padding-left: 1vw;
+  width: 415px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+/* arrow */
+.arrow {
+  padding: 1vw 0vw 3vw 48vw;
+}
+
+/* content5 style */
+.content5 h1 {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 1vw;
+}
+
+.content5 p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0vw 15vw 0vw 15vw;
+}
+
+.content5 button {
+  font-size: 12px;
+  background-color: #5cb85f;
+  color: white;
+  width: fit-content;
+  margin-left: 25vw;
+}
+
+.content5 .card {
+  margin: 0vw 10vw 0vw 10vw; padding-bottom: 1vw;
+}
+
+/* content6 style */
+.content6 {
+  padding-top: 3vw;
+  display: flex;
+}
+
+.content6-left {
+  width: 50%;
+}
+
+.content6-left h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.content6-left p {
+  width: 368px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.content6-right {
+  width: 50%;
+}
+
+.accordion .accordion-item button {
+  border: solid 1px #e5e5e5;
+  margin-bottom: 1vw;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  padding-top: 10vw;
+  padding-bottom: 3vw;
+  justify-content: space-around;
+}
+
+.footer p {
+  width: 268px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer h6 {
+  width: 100px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: -0.5vw;
+}
+
+.footer-3-logos {
+  display: flex;
+  width: 32px;
+  height: 32px;
+}
+
+.footer-3-logos img {
+  margin-right: 1vw;
+}
+
+.footer-4-logo {
+  width: 100px;
+}
+
+/* ====================== getcar pages style ====================== */
+
+/* filter box style */
+.card-filter {
+  width: 90%;
+  margin-top: 3vw;
+  
+}
+
+.form-filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1vw;
+}
+
+.form-filter button {
+  width: fit-content;
+  height: 40px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  background: #5cb85f;
+  color: #ffffff;
+  margin-top: 0.5vw;
+}
+
+.filter label{
+  text-align: left;
+  display: block;
+  font-size: 14px;
+}
+
+/* datepicket */
+[type="date"] {
+  background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+}
+
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+input {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 190px;
+}
+
+select {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 3px 5px;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  width: 190px;
+}
+
+/* car cards style */
+.car-cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9vw;
+  margin-top: 3vw;
+}
+
+.car-cards-card {
+  border: solid 1px rgb(223, 221, 221);
+  border-radius: 5px;
+  margin-right: 3vw;
+  margin-bottom: 2vw;
+  width: 24.5vw;
+}
+
+.car-desc{
+  width: 250px;
+  height: 200px;
+  margin-left: 2vw;
+  font-size: 14px;
+  /* border: solid 1px #000000; */
+}
+
+.car-image{
+  margin-top: 3vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: 270px;
+  height: 160px;
+  
+}
+
+.car-cards-card-attibute-sub img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1vw;
+  margin-left: 2vw;
+}
+
+.car-cards-card-title {
+  margin-top: 3vw;
+  margin-left: 2vw;
+}
+
+.car-card-button {
+  background-color: #5cb85f;
+  color: white;
+  margin-left: 2vw;
+  margin-bottom: 2vw;
+  width: 85%;
+}
+
+.car-cards-card-attibute-sub {
+  display: flex;
+}
